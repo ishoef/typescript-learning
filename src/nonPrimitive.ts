@@ -12,7 +12,7 @@
 // 5. void
 // 6. never
 
-const marketList: string[] = [
+let marketList: string[] = [
   "fruits",
   "eggs",
   "vegetables",
@@ -28,3 +28,10 @@ marketList.push("dairy");
 marketList.push("12");
 
 console.log(marketList);
+
+let mixedArr: (string | number)[] = ["suger", 2, "alu", 5, "piyaz", 4];
+console.log(mixedArr);
+
+let tupleArr: [string, number, boolean] = ["apple", 5, true];
+
+console.log(tupleArr);
