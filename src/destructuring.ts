@@ -17,7 +17,7 @@ const user = {
 const {
   name: { firstName, lastName, middleName },
   id,
-  gender: sex, // aliasing
+  gender: sex, // name aliasing
   age,
   isLoggedIn,
 } = user;
@@ -29,3 +29,4 @@ const numbers = [23, 45, 67, 89, 12, 34, 56];
 
 const [first, second, third, ...rest] = numbers;
 console.log(rest, first);
+
